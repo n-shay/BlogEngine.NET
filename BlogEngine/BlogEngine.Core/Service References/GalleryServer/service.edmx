@@ -8,10 +8,10 @@
         </Key>
         <Property Name="Id" Type="Edm.String" Nullable="false" />
         <Property Name="Version" Type="Edm.String" Nullable="false" />
-        <Property Name="Title" Type="Edm.String" Nullable="true" />
-        <Property Name="Authors" Type="Edm.String" Nullable="true" />
+        <Property Name="Title" Type="Edm.String" Nullable="true" m:FC_TargetPath="SyndicationTitle" m:FC_ContentKind="text" m:FC_KeepInContent="true" />
+        <Property Name="Authors" Type="Edm.String" Nullable="true" m:FC_TargetPath="SyndicationAuthorName" m:FC_ContentKind="text" m:FC_KeepInContent="true" />
         <Property Name="PackageType" Type="Edm.String" Nullable="true" />
-        <Property Name="Summary" Type="Edm.String" Nullable="true" />
+        <Property Name="Summary" Type="Edm.String" Nullable="true" m:FC_TargetPath="SyndicationSummary" m:FC_ContentKind="text" m:FC_KeepInContent="true" />
         <Property Name="Description" Type="Edm.String" Nullable="true" />
         <Property Name="Copyright" Type="Edm.String" Nullable="true" />
         <Property Name="PackageHashAlgorithm" Type="Edm.String" Nullable="true" />
@@ -24,8 +24,8 @@
         <Property Name="VersionRatingsCount" Type="Edm.Int32" Nullable="false" />
         <Property Name="VersionDownloadCount" Type="Edm.Int32" Nullable="false" />
         <Property Name="Created" Type="Edm.DateTime" Nullable="false" />
-        <Property Name="LastUpdated" Type="Edm.DateTime" Nullable="false" />
-        <Property Name="Published" Type="Edm.DateTime" Nullable="false" />
+        <Property Name="LastUpdated" Type="Edm.DateTime" Nullable="false" m:FC_TargetPath="SyndicationUpdated" m:FC_ContentKind="text" m:FC_KeepInContent="true" />
+        <Property Name="Published" Type="Edm.DateTime" Nullable="true" />
         <Property Name="ExternalPackageUrl" Type="Edm.String" Nullable="true" />
         <Property Name="ProjectUrl" Type="Edm.String" Nullable="true" />
         <Property Name="LicenseUrl" Type="Edm.String" Nullable="true" />
